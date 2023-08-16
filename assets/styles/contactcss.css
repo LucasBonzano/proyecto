@@ -30,6 +30,9 @@ img {
 h6{
     font-weight: bold;
 }
+section{
+    width: 60%;
+}
 section h4{
     padding-left: 50px;
     margin: 5px;
