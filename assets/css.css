@@ -33,8 +33,10 @@ h6{
 section h4{
     padding-left: 50px;
     margin: 5px;
+    flex: 40%;
 }
 section p{
     padding-left: 70px;
     margin: 10px;
+    flex: 40%;
 }
