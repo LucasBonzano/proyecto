@@ -13,7 +13,7 @@ header{
     padding: 200px;
     background-image: url(../Image/design1_image1.jpg);
 }
-nav{
+a.nav{
     position: relative;
     float: inline-start;
 }
@@ -45,12 +45,12 @@ section{
     width: 60%;
 }
 section h4{
-    padding-left: 50px;
+    padding-left: 130px;
     margin: 5px;
     flex: 40%;
 }
 section p{
-    padding-left: 70px;
+    padding-left: 140px;
     margin: 10px;
     flex: 40%;
 }
@@ -59,9 +59,37 @@ section p{
     top: -213px;
     left: -10%;
     color: aliceblue;
+    font-size: 49px;
 }
-.Logo{
-    position: relative;
-    top: 16%;
-    left: 16%;
+.upcoming-events {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding: 20px;
+    margin: 0;
 }
+
+.upcoming-events h3 {
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+    color: white;
+    flex: 1;
+}
+
+.Logo {
+    width: 75px;
+    height: 75px;
+    margin-left: 85%;
+    position: absolute;
+}
+
+.Logo:hover {
+    transform: scale(1.35);
+}
+
+
