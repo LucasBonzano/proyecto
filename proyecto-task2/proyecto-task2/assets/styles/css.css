@@ -1,0 +1,169 @@
+main h3{
+    text-align: center;
+    justify-content: center;
+    text-size-adjust: 24px;
+    background-color: blue;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    
+}
+header{
+    background-size: cover;
+    padding: 200px;
+    background-image: url(../Image/design1_image1.jpg);
+}
+a.nav{
+    position: relative;
+    float: inline-start;
+}
+ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+    display: flex;
+}
+ul li{
+    padding: 10px;
+}
+img {
+    width: 75px;
+    height: 75px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.flex h2{
+    margin: 15px;
+}
+h6{
+    font-weight: bold;
+}
+section{
+    width: 60%;
+}
+section h4{
+    padding-left: 130px;
+    margin: 5px;
+    flex: 40%;
+}
+section p{
+    padding-left: 140px;
+    margin: 10px;
+    flex: 40%;
+}
+.TextoPrincipal{
+    position: relative;
+    top: -213px;
+    left: -10%;
+    color: aliceblue;
+    font-size: 49px;
+}
+.upcoming-events {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding: 20px;
+    margin: 0;
+}
+
+.upcoming-events h3 {
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+    color: white;
+    flex: 1;
+}
+
+.Logo {
+    width: 75px;
+    height: 75px;
+    margin-left: 85%;
+    position: absolute;
+}
+
+.Logo:hover {
+    transform: scale(1.35);
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 40px;
+    width: 400px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-container {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f7f7f7;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+    transition: height 0.3s;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
